@@ -1,0 +1,73 @@
+body {
+  font-family: "f1-regular";
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color:antiquewhite;
+  color: #fff;
+  padding: 10px 40px;
+  text-align: left;
+}
+.topnav {
+overflow: hidden;
+background-color:#2f6179 
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: #fff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.topnav a:hover {
+background-color: #3b3b3b;
+color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.sidebar {
+  flex: 1;
+  background-color: #2089b6;
+  color: lightgray;
+  padding: 20px;
+  margin: 10px;
+}
+.main-content {
+  flex: 2;
+  background-color: #242424; 
+  color: lightgray;
+  padding: 20px;
+  line-gap-override: 10px;
+  margin: 10px;
+}
+footer {
+  background-color: #303030;
+  color: lightgray;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+@font-face {
+font-family: "f1-regular";
+src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2") format("woff2");
+}
+
+table {
+  border: 1px solid; color: lightgray;
+  font-size: 20px;
+}
